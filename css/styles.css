@@ -20,6 +20,11 @@ body.active {
     z-index: -1
 }
 
+.justified {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .no-js #experience-timeline > div {
     background: #fff;
     padding: 10px;
