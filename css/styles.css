@@ -23,6 +23,8 @@ body.active {
 .justified {
   text-align: justify;
   text-justify: inter-word;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .fulljustify {
@@ -410,7 +412,7 @@ footer {
 #experience-timeline {
     margin: 30px auto 0 auto;
     position: relative;
-    max-width: 1200px
+    max-width: 1100px
 }
 
 #experience-timeline:before {
