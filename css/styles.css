@@ -25,6 +25,20 @@ body.active {
   text-justify: inter-word;
 }
 
+.fulljustify {
+    	text-align:justify;
+    }
+    .fulljustify:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+    }
+    #tagline {
+        height: 80px;
+        overflow: hidden;
+        line-height: 80px; /* vert-center */
+    }
+
 .no-js #experience-timeline > div {
     background: #fff;
     padding: 10px;
