@@ -346,7 +346,7 @@ p {
 
 .main-wrapper .projects-section .item .project-description {
     position: relative;
-    width: 600px;
+    max-width: 600px;
     height: 100%;
     float: right;
     margin: auto;
