@@ -31,7 +31,6 @@
 #skillsProject {
     #padding: 50px 15px;
     text-align: left;
-    float: left;
     #background: #f2f2f5;
 }
 
@@ -293,6 +292,11 @@ p {
 
 .main-wrapper .experiences-section .item {
   margin-bottom: 20px;
+}
+
+.main-wrapper .experiences-section .item .skillsProject {
+    position: relative;
+    float: left;
 }
 
 .main-wrapper .upper-row {
