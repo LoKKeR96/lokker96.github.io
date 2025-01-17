@@ -369,6 +369,46 @@ p {
     margin-right: 10px;
 }
 
+.main-wrapper .awards-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-right: 10px;
+  color: #2d7788;
+}
+
+.main-wrapper .awards-section .intro {
+  margin-bottom: 30px;
+}
+
+.main-wrapper .awards-section .item .awards-description {
+    position: relative;
+    max-width: 600px;
+    height: 100%;
+    float: right;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.main-wrapper .awards-section .item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.awards-image {
+    float: left;
+}
+
+.main-wrapper .awards-section .awards-image img {
+    object-fit: contain;
+    max-width: 230px;
+    margin-right: 10px;
+}
+
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
