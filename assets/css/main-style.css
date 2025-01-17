@@ -294,6 +294,11 @@ p {
   margin-bottom: 20px;
 }
 
+.main-wrapper .experiences-section .item .skillsProject {
+    position: relative;
+    float: left;
+}
+
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
