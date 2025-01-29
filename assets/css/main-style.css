@@ -1,8 +1,8 @@
 
 #skills {
-    #padding: 50px 15px;
+    /* padding: 50px 15px; */
     text-align: center;
-    #background: #f2f2f5;
+    /* background: #f2f2f5; */
 }
 
 #skills h2 {
@@ -29,9 +29,9 @@
 }
 
 #skillsProject {
-    #padding: 50px 15px;
+    /* padding: 50px 15px; */
     text-align: left;
-    #background: #f2f2f5;
+    /* background: #f2f2f5; */
 }
 
 #skillsProject h2 {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 .justified {
   text-align: justify;
   text-justify: inter-word;
-  #word-spacing:2px;
+  word-spacing:2px;
 }
 
 a {
@@ -245,7 +245,7 @@ p {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 5px;
-  //padding: 60px;
+  /* padding: 60px; */
   padding-right: 300px;
 }
 
@@ -367,6 +367,51 @@ p {
     object-fit: contain;
     max-width: 230px;
     margin-right: 10px;
+}
+
+.main-wrapper .reference-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-right: 10px;
+  color: #2d7788;
+}
+
+.main-wrapper .references-section .intro {
+  margin-bottom: 30px;
+}
+
+.main-wrapper .references-section .item .reference-description {
+    position: relative;
+    max-width: 600px;
+    height: 100%;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.main-wrapper .references-section .item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.reference-image {
+  float: left;
+  margin-right: 10px;
+  /* height: 48px; */
+  width: 48px;
+}
+
+.main-wrapper .references-section .reference-image img {
+  object-fit: contain;
+  max-width: 48px;
+  margin-right: 48px;
+  box-sizing: border-box;
+  background-clip: content-box;
+  border: 2px solid transparent;
+  border-radius: 49.9%;
 }
 
 .main-wrapper .awards-title {
